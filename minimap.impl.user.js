@@ -51,7 +51,7 @@ const { html, render } = mlp_uhtml;
   };
   const getRPlaceTemplateBotUrl = function (templateName) {
     if (rPlaceTemplatesGithubLfs) {
-      return `https://media.githubusercontent.com/media/josecurioso/minimap/d/main/${templateName}/bot2k.png`;
+      return `https://media.githubusercontent.com/media/josecurioso/minimap/d/main/${templateName}/canvas2k.png`;
     }
     return `https://raw.githubusercontent.com/josecurioso/minimap/d/main/${templateName}/canvas2k.png`;
   };
