@@ -6,7 +6,7 @@
 * Abre un navegador basado en Chromium (Google Chrome, Edge, Opera, Yandex.Browser)
   * En Android se puede usar Kiwi Browser + Tampermonkey.
 * Instalar la extensión "Tampermonkey" (https://www.tampermonkey.net/)
-* En Firefox no funciona. 
+* En Firefox hay que usar https://addons.mozilla.org/es/firefox/addon/violentmonkey/ (ViolentMonkey).
 * Abre la siguiente página en el navegador: <https://raw.githubusercontent.com/josecurioso/minimap/d/main/minimap.user.js>
   * Haz click en instalar.
 * Haz click en el canvas de r/place para que carge.
