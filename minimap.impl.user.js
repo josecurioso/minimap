@@ -45,15 +45,15 @@ const { html, render } = mlp_uhtml;
   const rPlaceTemplatesGithubLfs = true;
   const getRPlaceTemplateCanvasUrl = function (templateName) {
     if (rPlaceTemplatesGithubLfs) {
-      return `https://media.githubusercontent.com/media/r-ainbowroad/minimap/d/main/${templateName}/canvas2k.png`;
+      return `https://media.githubusercontent.com/media/josecurioso/minimap/d/main/${templateName}/canvas2k.png`;
     }
-    return `https://raw.githubusercontent.com/r-ainbowroad/minimap/d/main/${templateName}/canvas2k.png`;
+    return `https://raw.githubusercontent.com/josecurioso/minimap/d/main/${templateName}/canvas2k.png`;
   };
   const getRPlaceTemplateBotUrl = function (templateName) {
     if (rPlaceTemplatesGithubLfs) {
-      return `https://media.githubusercontent.com/media/r-ainbowroad/minimap/d/main/${templateName}/bot2k.png`;
+      return `https://media.githubusercontent.com/media/josecurioso/minimap/d/main/${templateName}/bot2k.png`;
     }
-    return `https://raw.githubusercontent.com/r-ainbowroad/minimap/d/main/${templateName}/canvas2k.png`;
+    return `https://raw.githubusercontent.com/josecurioso/minimap/d/main/${templateName}/canvas2k.png`;
   };
   const rPlaceTemplateNames = [];
   const rPlaceTemplates = new Map();
@@ -65,8 +65,9 @@ const { html, render } = mlp_uhtml;
     });
     rPlaceTemplateNames.push(templateName);
   };
-  addRPlaceTemplate("mlp", { bot: true });
-  addRPlaceTemplate("r-ainbowroad", { bot: true });
+  //addRPlaceTemplate("mlp", { bot: true });
+  //addRPlaceTemplate("r-ainbowroad", { bot: true });
+  addRPlaceTemplate("spain", { bot: true });
   let rPlaceTemplateName;
   let rPlaceTemplate;
   const setRPlaceTemplate = function (templateName) {
